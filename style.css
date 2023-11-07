@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+background-color: #a5d6ee;
+text-align: center;
+}
+
+/*
+For the header and footer, I decided to go with a background picture instead of just a simple color; I love galaxies and stars, and I couldn't help myself and decided to add it on this website in a way that wouldn't be too distracting. Fortunately, the picture I have is dark enough in color that a lighter text makes it stand out nicely.
+*/
+
+header, footer {
+background-image: url("Galaxy Sky Twitch.png");
+margin-bottom: 20px;
+color: #65bbe6;
+font-family: 'Georgia', cursive;
+font-size: 24px;
+text-align: center; 
+padding: 10px;
+}
+
+h1 {
+font-family: Georgia, Helvetica, sans-serif;
+font-size: 50px;
+color: #b3f2ff
+}
+
+h2, h3, h4 {
+  color: #36479b;
+  font-family: Georgia, cursive;
+  font-size: 24px;
+  text-align: center; 
+  line-height: 30px;
+}
+
+img {
+width: 300px;
+margin: 0px;
+border: 5px solid #36479b;
+}
+
+div {
+  margin: 0px;
+  padding: 25px 40px;
+}
+
+article, section {
+  border: 5px solid #36479b;
+  padding: 20px;
+  font-size: 20px;
+  color: #36479b;
+}
+
+hr {
+ width: 400px;
+ border: 1px solid #36479b;
+ opacity: .75;
+ margin: auto;
+}
+
+a {
+  font-family: Georgia, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+a:link {color: #2e62ff;}
+a:visited {color: #562aa7;}
+a:hover {color: #2ec3f5;}
+a:active {color: white;}
+
+ol {
+text-align: left;
+list-style-position: inside;
+}
